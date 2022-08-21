@@ -3,7 +3,7 @@
 
 width, height = 80, 60
 
-def quantize(path="data.txt", amount=4): # pathは圧縮するテキストのパス, amountはどれだけ量子化するか(4だと4分の1)
+def quantize(path="joined.txt", amount=4): # pathは圧縮するテキストのパス, amountはどれだけ量子化するか(4だと4分の1)
 	text = open(path, "r")
 	quantized = open("quantized.txt", "w")
 	q = []
