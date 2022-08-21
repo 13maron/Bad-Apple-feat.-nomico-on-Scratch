@@ -2,7 +2,6 @@
 
 import cv2
 import os
-import sys
 
 def conv(path="Bad Apple!!.mp4", frames=6571):
 	capt = cv2.VideoCapture(path)
